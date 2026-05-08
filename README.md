@@ -77,3 +77,8 @@ remote:
 To https://github.com/aniii-206/Proyecto-entornos-CP-copy-paste-
  * [new branch]      master -> master
 branch 'master' set up to track 'origin/master'.
+
+
+
+
+No se si mañana viernes o hoy tipo esta noche investigaré como editar algo ya subido :D
