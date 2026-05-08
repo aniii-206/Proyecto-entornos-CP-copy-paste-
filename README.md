@@ -12,7 +12,7 @@ Luego iniciar git de forma local <br>
 Os saldrá este mensaje <br>
 Initialized empty Git repository in C:/Users/Ani/Desktop/NombreCarpeta/.git/ <br>
 
-Poneis el github (Esto ponerlo tal cual) <br>
+Poneis el github (Esto ponerlo tal cual pero con tu nombre de usuario) <br>
     `git remote add origin https://github.com/aniii-206/Proyecto-entornos-CP-copy-paste-` <br>
 
 Mirais el status por si teneis algo sin tener subido en la carpeta <br>
