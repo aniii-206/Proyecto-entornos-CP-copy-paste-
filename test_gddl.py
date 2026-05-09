@@ -38,5 +38,14 @@ class TestGDDL(unittest.TestCase):
         r = estadisticas_globales(self.df_test)
         self.assertIn('media', r)
 
+    def test_vacio(self): 
+        df_vacio = pd.DataFrame(columns=self.df_test.columns) 
+        r = filtrar_expertos(df_vacio, 7, 'SongA') 
+        self.assertEqual(len(r), 0) 
+
+    def test_decimo(self): 
+        r = obtener_decimo_nivel(self.df_test) 
+        self.assertIsNone(r) 
+
 if __name__ == '__main__':
     unittest.main()
